@@ -1,0 +1,38 @@
+<%= render 'partials/header' %>
+
+<div class="showBg">
+  <div class="ui raised very padded text container segment" id="showSec">
+    <p>
+      <strong >Title:</strong>
+      <%= @article.title %>
+    </p>
+
+    <p>
+      <strong>Text:</strong>
+      <%= @article.text %>
+    </p>
+    <div class="ui buttons" id="optionBtns">
+      <div class="ui grey button">
+        <%= link_to 'Back', articles_path %>
+      </div>
+
+      <div class="or"></div>
+
+      <div class="ui positive button">
+        <%= link_to 'Edit', edit_article_path(@article) %>
+      </div>
+    </div>
+  </div>
+
+  <div class="ui raised very padded text container segment" id="comments">
+    <h2>Comments</h2>
+    <%= render @article.comments %>
+    <hr/>
+    <h2>Add a comment:</h2>
+    <%= render 'comments/form' %>
+
+  </div>
+
+</div>
+
+<%= render 'partials/footer' %>

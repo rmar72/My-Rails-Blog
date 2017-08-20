@@ -1,0 +1,109 @@
+// Place all the styles related to the Articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+//index page
+.uImg{
+  margin-top: 0px;
+  height:250px;
+  background-image: url("upart.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100% 250px;
+}
+.block{
+  margin-left:300px;
+  text-align:center;
+}
+.articlesTable{
+  margin:50px 0;
+  width:700px;
+}
+.articleSec{
+  border:1px solid #2A52BE;
+  height:100px;
+}
+.articleFields{
+  width: 1330px;
+  text-align:left;
+  height:300px;
+  padding-left:50px;
+  padding-right:50px;
+}
+.articleFields h1{
+  padding-bottom:10px;
+}
+.bImg{
+  margin-top: 0px;
+  height:250px;
+  background-image: url("bpart.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% 250px;
+}
+
+//new article page
+.newBg{
+  width:100%;
+  height:620px;
+  background-image: url("1.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom ;
+  background-size:900px 580px;
+}
+.newSec{
+  margin:100px 0 0 560px;
+}
+
+//show page
+.showBg{
+  width:100%;
+  height:1200px;
+  background-image: url("h.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  padding: 50px;
+}
+#showSec{
+  margin-top:100px;
+}
+#comments{
+  margin-top:100px;
+  text-align:center;
+}
+#optionBtns{
+  margin-bottom: 10px;
+  float:right;
+}
+#optionBtns a{
+  font-size: 15px;
+  color:white;
+}
+#comments .ui.primary.button.submits{
+  font-size: 20px;
+}
+.form-control{
+  width:300px;
+}
+.form-control.tArea{
+  height:150px;
+}
+
+//edit page
+.editBg{
+  width:100%;
+  height:620px;
+  background-image: url("1.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom ;
+  background-size:900px 580px;
+}
+.editSec{
+  margin:100px 0 0 560px;
+}
+#backBtn{
+  margin:5px 0 10px 95px;
+}
+#backBtn a{
+  color:#a333c8;
+}

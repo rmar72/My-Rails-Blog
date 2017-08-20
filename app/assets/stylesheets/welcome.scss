@@ -1,0 +1,19 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.myBg{
+  height:500px;
+  max-width:100%;
+  background-image:url("c.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size:50px;
+}
+marquee{
+  margin-left:500px;
+  height:300px;
+}
+.btmBlk{
+  background-color: #191A1C;
+  height:137px;
+}

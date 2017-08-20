@@ -1,0 +1,98 @@
+// Place all the styles related to the users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+//users index
+body{
+
+}
+#mainContainer{
+  margin-top: 100px;
+  text-align: center;
+}
+#mainContainer h1{
+  color:#2185D0;
+}
+
+#mainContainer table{
+  margin:50px 0 30px 260px;
+  border: 0.5px solid lightgrey;
+}
+#mainContainer thead{
+  background-color:white;
+  border-bottom: 1px solid black;
+}
+#mainContainer thead th{
+  padding:10px;
+}
+#mainContainer tbody{
+  background-color:#f7f7f7;
+}
+#mainContainer td{
+  padding:30px;
+}
+#newBtn{
+  width: 550px;
+  border: 2px solid #2185D0;
+  margin-bottom: 35px;
+}
+#newBtn a{
+  color:black;
+}
+
+//show page
+.profileSection{
+  border:1px solid black;
+  text-align: center;
+  background-image: url("city.jpeg");
+  background-size: cover;
+  height:1000px;
+}
+.profileSection h1{
+  margin-top: 50px;
+}
+.ui.card{
+  margin:20px auto 20px auto;
+}
+
+//new user page
+.newContainer{
+  margin-top:80px;
+  background-image: url("polyg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+}
+.newSubContainer{
+    position: absolute;
+    left: 580px;
+    top: 100px;
+    z-index: 1;
+}
+#user_name,#user_email,#user_login{
+  width:300px;
+}
+
+//edit page
+#editContainer{
+  margin-top: 40px;
+  text-align:center;
+  background-image: url("page.jpg");
+  // background: rgba(0,0,0,0.4);
+  height:620px;
+}
+#editContainer h1{
+  padding:70px 0 30px 0;
+}
+#optionBtn a{
+  color:white;
+}
+#subEdit{
+  display: inline-block;
+  background-color: rgba(249,249,249,0.8);
+  margin:10px;
+  padding: 12px;
+}
+.ui.primary.button.massive{
+  margin:5px 0 10px 0px;
+}
